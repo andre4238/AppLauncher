@@ -1,0 +1,30 @@
+﻿<Window x:Class="AppLauncher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppLauncher"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="320" Width="64" ResizeMode="NoResize" WindowStyle="None" Background="#FF282828" WindowStartupLocation="Manual" Top="350" Left="3775" ShowInTaskbar="False" Topmost="True" >
+    <Grid>
+        <StackPanel>
+            <Button Click="chrome_Click" x:Name="chrome" Margin="0"   Width="64" Height="64" Background="#FF282828">
+                <Image Source="/img/chrome-icon.png" />
+            </Button>
+            <Button Click="word_Click" x:Name="word" Margin="0"   Width="64" Height="64" Background="#FF282828">
+                <Image Source="/img/word-icon.png" />
+            </Button>
+            <Button Click="outlook_Click" x:Name="outlook" Margin="0"   Width="64" Height="64" Background="#FF282828">
+                <Image Source="/img/Outlook-icon.png" />
+            </Button>
+            <Button Click="youtube_Click" x:Name="youtube" Margin="0"   Width="64" Height="64" Background="#FF282828">
+                <Image Source="/img/Youtube-icon.png" />
+            </Button>
+            <Button Click="confluence_Click" x:Name="confluence" Margin="0"   Width="64" Height="64" Background="#FF282828">
+                <Image Source="/img/confluence.png" />
+            </Button>
+            
+        </StackPanel>
+    </Grid>
+
+</Window>
